@@ -1,0 +1,19 @@
+{
+  "name": "save-our-sanity",
+  "version": "1.0.0",
+  "description": "Logging object proxy for sanity checking",
+  "main": "index.js",
+  "repository": "https://github.com/telamon/save-our-sanity.git",
+  "author": "Tony Ivanov",
+  "license": "GPL-3.0-or-later",
+  "scripts": {
+    "test": "tape test.js",
+    "debug": "node inspect $(npm bin)/tape test.js"
+  },
+  "dependencies": {
+    "debug": "^4.1.1"
+  },
+  "devDependencies": {
+    "tape": "^4.11.0"
+  }
+}
